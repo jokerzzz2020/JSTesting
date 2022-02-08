@@ -28,8 +28,6 @@ function mapOrder(userOrders) {
        var orderObjArrTmp=[]
        k.orderIds.map(o=>{
         var orderObj=orderObjArr.filter(i=>i.id===o)[0]
-        console.log(o);
-        console.log(orderObj);
         orderObjArrTmp.push(orderObj);
        });
        
